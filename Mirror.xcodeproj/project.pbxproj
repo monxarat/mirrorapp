@@ -109,8 +109,8 @@
 /* Begin PBXFileReference section */
 		1116144519804F35002D4A07 /* libappletv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappletv.a; sourceTree = "<group>"; };
 		1149D948198043BC000AE642 /* libappletv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappletv.a; sourceTree = "<group>"; };
+		1157E2E01987FDB300C8FA8C /* iOSconstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSconstants.h; sourceTree = "<group>"; };
 		1163D2C319803309000EAD4D /* appletv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appletv.h; sourceTree = "<group>"; };
-		11D43C071976C52200E975C2 /* iOSconstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iOSconstants.h; path = ../iOSMirror/iOSconstants.h; sourceTree = "<group>"; };
 		11D43C081976E00700E975C2 /* NSAlert+BlockMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+BlockMethods.h"; sourceTree = "<group>"; };
 		11D43C091976E00700E975C2 /* NSAlert+BlockMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+BlockMethods.m"; sourceTree = "<group>"; };
 		11D43C1A19770FB200E975C2 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
@@ -252,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				11D43C1A19770FB200E975C2 /* constants.h */,
-				11D43C071976C52200E975C2 /* iOSconstants.h */,
+				1157E2E01987FDB300C8FA8C /* iOSconstants.h */,
 				1163D2C319803309000EAD4D /* appletv.h */,
 			);
 			path = SharedMirror;
@@ -701,8 +701,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Penn State University";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Penn State University";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -758,8 +758,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Penn State University";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Penn State University";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
