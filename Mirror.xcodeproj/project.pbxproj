@@ -43,12 +43,9 @@
 		1483ACFC1937CE37001B2BBB /* Mirror BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACCF1937CE37001B2BBB /* Mirror BG.png */; };
 		1483ACFD1937CE37001B2BBB /* MIrror Launch iPhone 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACD01937CE37001B2BBB /* MIrror Launch iPhone 5.png */; };
 		1483ACFE1937CE37001B2BBB /* Mirror Launch R4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACD11937CE37001B2BBB /* Mirror Launch R4.png */; };
-		1483AD001937CE37001B2BBB /* OBS_icon copy 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACD31937CE37001B2BBB /* OBS_icon copy 3.png */; };
 		1483AD011937CE37001B2BBB /* penn state logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACD41937CE37001B2BBB /* penn state logo.png */; };
 		1483AD021937CE37001B2BBB /* psu_mark_reversed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACD51937CE37001B2BBB /* psu_mark_reversed.png */; };
 		1483AD061937CE37001B2BBB /* URL window.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACD91937CE37001B2BBB /* URL window.png */; };
-		1483AD2D1937CE90001B2BBB /* AirFloatLogo-Support.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483AD081937CE90001B2BBB /* AirFloatLogo-Support.png */; };
-		1483AD2E1937CE90001B2BBB /* AirFloatLogo-Support@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483AD091937CE90001B2BBB /* AirFloatLogo-Support@2x.png */; };
 		1483AD2F1937CE90001B2BBB /* AirPlay Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483AD0A1937CE90001B2BBB /* AirPlay Check.png */; };
 		1483AD301937CE90001B2BBB /* AirPlay Grid 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483AD0B1937CE90001B2BBB /* AirPlay Grid 2.png */; };
 		1483AD311937CE90001B2BBB /* AirPlay Grid 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483AD0C1937CE90001B2BBB /* AirPlay Grid 3.png */; };
@@ -147,12 +144,9 @@
 		1483ACCF1937CE37001B2BBB /* Mirror BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mirror BG.png"; sourceTree = "<group>"; };
 		1483ACD01937CE37001B2BBB /* MIrror Launch iPhone 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MIrror Launch iPhone 5.png"; sourceTree = "<group>"; };
 		1483ACD11937CE37001B2BBB /* Mirror Launch R4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mirror Launch R4.png"; sourceTree = "<group>"; };
-		1483ACD31937CE37001B2BBB /* OBS_icon copy 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OBS_icon copy 3.png"; sourceTree = "<group>"; };
 		1483ACD41937CE37001B2BBB /* penn state logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penn state logo.png"; sourceTree = "<group>"; };
 		1483ACD51937CE37001B2BBB /* psu_mark_reversed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psu_mark_reversed.png; sourceTree = "<group>"; };
 		1483ACD91937CE37001B2BBB /* URL window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "URL window.png"; sourceTree = "<group>"; };
-		1483AD081937CE90001B2BBB /* AirFloatLogo-Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AirFloatLogo-Support.png"; sourceTree = "<group>"; };
-		1483AD091937CE90001B2BBB /* AirFloatLogo-Support@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AirFloatLogo-Support@2x.png"; sourceTree = "<group>"; };
 		1483AD0A1937CE90001B2BBB /* AirPlay Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AirPlay Check.png"; sourceTree = "<group>"; };
 		1483AD0B1937CE90001B2BBB /* AirPlay Grid 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AirPlay Grid 2.png"; sourceTree = "<group>"; };
 		1483AD0C1937CE90001B2BBB /* AirPlay Grid 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AirPlay Grid 3.png"; sourceTree = "<group>"; };
@@ -293,7 +287,6 @@
 				1483ACCF1937CE37001B2BBB /* Mirror BG.png */,
 				1483ACD01937CE37001B2BBB /* MIrror Launch iPhone 5.png */,
 				1483ACD11937CE37001B2BBB /* Mirror Launch R4.png */,
-				1483ACD31937CE37001B2BBB /* OBS_icon copy 3.png */,
 				1483ACD41937CE37001B2BBB /* penn state logo.png */,
 				1483ACD51937CE37001B2BBB /* psu_mark_reversed.png */,
 				1483ACD91937CE37001B2BBB /* URL window.png */,
@@ -307,8 +300,6 @@
 				8A34046C193D0F0D0031BCFE /* Go Button.png */,
 				8A34046A193CFE070031BCFE /* Screen Shot 2014-06-02 at 2.44.51 PM.png */,
 				8A340468193CE7820031BCFE /* Gear - Mirror 3 OSX.png */,
-				1483AD081937CE90001B2BBB /* AirFloatLogo-Support.png */,
-				1483AD091937CE90001B2BBB /* AirFloatLogo-Support@2x.png */,
 				1483AD0A1937CE90001B2BBB /* AirPlay Check.png */,
 				1483AD0B1937CE90001B2BBB /* AirPlay Grid 2.png */,
 				1483AD0C1937CE90001B2BBB /* AirPlay Grid 3.png */,
@@ -523,7 +514,6 @@
 				1483ACE91937CE37001B2BBB /* Default@2x.png in Resources */,
 				1483ACDC1937CE37001B2BBB /* AirPlay Check.png in Resources */,
 				1483AD571937CF10001B2BBB /* Main_iPhone.storyboard in Resources */,
-				1483AD001937CE37001B2BBB /* OBS_icon copy 3.png in Resources */,
 				1483ACE71937CE37001B2BBB /* Default-568h@2x.png in Resources */,
 				1483ACF81937CE37001B2BBB /* icon_76x76.png in Resources */,
 				1483ACFE1937CE37001B2BBB /* Mirror Launch R4.png in Resources */,
@@ -585,7 +575,6 @@
 				8A34046D193D0F0D0031BCFE /* Go Button.png in Resources */,
 				1483AD4A1937CE90001B2BBB /* Mirror BG.png in Resources */,
 				1483AD331937CE90001B2BBB /* AirPlay Grid Lines.png in Resources */,
-				1483AD2E1937CE90001B2BBB /* AirFloatLogo-Support@2x.png in Resources */,
 				1483AD4B1937CE90001B2BBB /* mirrorIcon.png in Resources */,
 				1483AD431937CE90001B2BBB /* Icon-Spotlight-iOS7.png in Resources */,
 				1483AD381937CE90001B2BBB /* ControlCenter Prompt 2.png in Resources */,
@@ -603,7 +592,6 @@
 				1483AD441937CE90001B2BBB /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				1483AD311937CE90001B2BBB /* AirPlay Grid 3.png in Resources */,
 				1483AD461937CE90001B2BBB /* icon_29x29.png in Resources */,
-				1483AD2D1937CE90001B2BBB /* AirFloatLogo-Support.png in Resources */,
 				1483AD301937CE90001B2BBB /* AirPlay Grid 2.png in Resources */,
 				1483AD501937CE90001B2BBB /* URL Sumit Button.png in Resources */,
 				8A340469193CE7820031BCFE /* Gear - Mirror 3 OSX.png in Resources */,
