@@ -1,5 +1,9 @@
 //
 //  NSAlert+BlockMethods.m
+//  Mirror
+//
+//  Copyright 2014, The Pennsylvania State University
+//  Distributed under MIT License
 //
 
 #import "NSAlert+BlockMethods.h"

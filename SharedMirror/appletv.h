@@ -1,6 +1,9 @@
 //
 //  appletv.h
-//  appletv
+//  Mirror
+//
+//  Copyright 2014, The Pennsylvania State University
+//  Distributed under MIT License
 //
 
 #import <Foundation/Foundation.h>

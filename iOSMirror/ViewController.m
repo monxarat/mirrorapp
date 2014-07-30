@@ -1,6 +1,9 @@
 //
 //  ViewController.m
-//  iOSMirror
+//  Mirror
+//
+//  Copyright 2014, The Pennsylvania State University
+//  Distributed under MIT License
 //
 
 #import "ViewController.h"

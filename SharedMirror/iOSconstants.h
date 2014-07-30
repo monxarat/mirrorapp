@@ -2,6 +2,9 @@
 //  iOSconstatns.h
 //  Mirror
 //
+//  Copyright 2014, The Pennsylvania State University
+//  Distributed under MIT License
+//
 //  Change the mirrordemo.tlt.psu.edu url below to point to your own distribution point for the latest updates.
 //  VERSION_FILE_PATH points to the plist file containing the current version number of your Mirror App
 //  This can be a different url than your Mirror App Server

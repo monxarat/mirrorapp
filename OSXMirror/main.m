@@ -1,6 +1,9 @@
 //
 //  main.m
-//  OSXMirror
+//  Mirror
+//
+//  Copyright 2014, The Pennsylvania State University
+//  Distributed under MIT License
 //
 
 #import <Cocoa/Cocoa.h>

@@ -1,6 +1,9 @@
 //
 //  main.m
-//  iOSMirror
+//  Mirror
+//
+//  Copyright 2014, The Pennsylvania State University
+//  Distributed under MIT License
 //
 
 #import <UIKit/UIKit.h>
