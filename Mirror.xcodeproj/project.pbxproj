@@ -205,7 +205,7 @@
 		14F68A3B19378A190030CB1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		14F68A3C19378A190030CB1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14F68A4519378A190030CB1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		14F68A5D19378A470030CB1E /* OSXMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F68A5D19378A470030CB1E /* Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F68A5E19378A470030CB1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		14F68A6119378A470030CB1E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		14F68A6219378A470030CB1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -364,7 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				14F68A2019378A190030CB1E /* iOSMirror.app */,
-				14F68A5D19378A470030CB1E /* OSXMirror.app */,
+				14F68A5D19378A470030CB1E /* Mirror.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -483,7 +483,7 @@
 			);
 			name = OSXMirror;
 			productName = OSXMirror;
-			productReference = 14F68A5D19378A470030CB1E /* OSXMirror.app */;
+			productReference = 14F68A5D19378A470030CB1E /* Mirror.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -831,7 +831,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mirror;
 				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
@@ -876,7 +876,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mirror;
 				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
