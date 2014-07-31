@@ -1,9 +1,11 @@
 Mirror App
 =========
 
-Mirror is an enterprise iOS app that allows you to wirelessly share content and mirror your iPad or iPhone screen to select classroom displays. Project development and feedback is encouraged and a Yammer partner group can be accessd by signing up to become a partner at [http://mirror.psu.edu/](http://mirror.psu.edu/).  
+Mirror is an enterprise iOS and OS X app that allows you to wirelessly share content and mirror your iPad or iPhone screen to select classroom displays. In order to accomplish this Mirror acts as a bonjour repeater broadcasting an appletv registration to the device. The user is presented with a list of registrations that are stored on a [Mirror App Server](https://github.com/psutlt/mirrorapp-server), which is located in another github project.
 
-![Mirror image](http://mirror.psu.edu/wp-content/uploads/sites/4426/2014/02/MirrorFrame-151x300.png)
+Project development and feedback is encouraged and a Yammer partner group can be accessd by signing up to become a partner at [http://mirror.psu.edu/](http://mirror.psu.edu/).  
+
+![Mirror image](http://mirror.psu.edu/wp-content/uploads/sites/4426/2014/02/MirrorFrame-151x300.png)![architecture](https://sites.psu.edu/airplay/wp-content/uploads/sites/4426/2014/07/architecture.png)
 
 This project is currently developed on XCode 5.1.1 and contains two targets.
 
@@ -25,7 +27,7 @@ This project is currently developed on XCode 5.1.1 and contains two targets.
 
 Several settings need to changed in the project before compiling for each platform.
 
-#### For iOS:
+#### For iOS: ([Apple Documentation](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html#//apple_ref/doc/uid/TP40012582-CH28-SW1))
 
 1. In the iOSMirror target, under General properties, set the appropriate Bundle identifier, Version and Team for your Enterprise Developer Account.
 2. In build settings, under code signing make sure to specify the "Code Signing Identity" you wish to use for developemnt.
@@ -39,7 +41,7 @@ Several settings need to changed in the project before compiling for each platfo
 10. Save your file locally and upload both files to the web path you specified earlier.
 
 
-#### For OS X:
+#### For OS X: ([Apple Documentation](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingApplicationsOutside/DistributingApplicationsOutside.html#//apple_ref/doc/uid/TP40012582-CH12-SW2))
 
 1. In the OSXMirror target, under General properties, set the appropriate Bundle identifier and Version.
 2. Select "Developer ID" for signing, and choose the appropriate Team for your Enterprise Developer Account.
@@ -64,4 +66,3 @@ Apple requires that an Enterprise App must be restricted to only your institutio
 
 Copyright: © 2014, The Pennsylvania State University  
 Distributed under MIT License
-
