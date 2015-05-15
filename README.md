@@ -9,7 +9,7 @@ Project development and feedback is encouraged and a Yammer partner group can be
 
 ![Mirror image](http://mirror.psu.edu/wp-content/uploads/sites/4426/2014/02/MirrorFrame-151x300.png)![architecture](https://sites.psu.edu/airplay/wp-content/uploads/sites/4426/2014/07/architecture.png)
 
-This project is currently developed on XCode 6.0.1 and contains two targets.
+This project is currently developed on the latest XCode and contains two targets.
 
 * iOSMirror - iOS version of the application for iPad, iPhone, and iPod touch
 * OSXMirror - OS X version
