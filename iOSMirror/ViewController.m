@@ -759,6 +759,9 @@ static NSString *seeLabels;
                         else if ([model isEqualToString:@"Reflector"]) {
                             JSONData = [NSData dataWithContentsOfURL: [NSURL URLWithString: [NSString stringWithFormat:@"%@devicetype&id=%@", jsonURL, @"3"]]];
                         }
+                        else if ([model isEqualToString:@"AppleTV5"]) {
+                            JSONData = [NSData dataWithContentsOfURL: [NSURL URLWithString: [NSString stringWithFormat:@"%@devicetype&id=%@", jsonURL, @"4"]]];
+                        }
                         else { // model = AppleTV3,2
                             JSONData = [NSData dataWithContentsOfURL: [NSURL URLWithString: [NSString stringWithFormat:@"%@devicetype&id=%@", jsonURL, @"0"]]];
                         }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1116144619804F35002D4A07 /* libappletv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1116144519804F35002D4A07 /* libappletv.a */; };
-		1149D949198043BC000AE642 /* libappletv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1149D948198043BC000AE642 /* libappletv.a */; };
+		117104D01C060F7500A01219 /* libappletv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117104CF1C060F7500A01219 /* libappletv.a */; };
+		117104D21C060F9B00A01219 /* libappletv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117104D11C060F9B00A01219 /* libappletv.a */; };
 		11D43C0A1976E00700E975C2 /* NSAlert+BlockMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D43C091976E00700E975C2 /* NSAlert+BlockMethods.m */; };
 		1483ACA71937CB8D001B2BBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1483ACA61937CB8D001B2BBB /* UIKit.framework */; };
 		1483ACDC1937CE37001B2BBB /* AirPlay Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483ACAF1937CE37001B2BBB /* AirPlay Check.png */; };
@@ -104,10 +104,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1116144519804F35002D4A07 /* libappletv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappletv.a; sourceTree = "<group>"; };
-		1149D948198043BC000AE642 /* libappletv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappletv.a; sourceTree = "<group>"; };
 		1157E2E01987FDB300C8FA8C /* iOSconstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSconstants.h; sourceTree = "<group>"; };
 		1163D2C319803309000EAD4D /* appletv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appletv.h; sourceTree = "<group>"; };
+		117104CF1C060F7500A01219 /* libappletv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappletv.a; sourceTree = "<group>"; };
+		117104D11C060F9B00A01219 /* libappletv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappletv.a; sourceTree = "<group>"; };
 		11D43C081976E00700E975C2 /* NSAlert+BlockMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+BlockMethods.h"; sourceTree = "<group>"; };
 		11D43C091976E00700E975C2 /* NSAlert+BlockMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+BlockMethods.m"; sourceTree = "<group>"; };
 		11D43C1A19770FB200E975C2 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
@@ -225,7 +225,7 @@
 			files = (
 				1483ACA71937CB8D001B2BBB /* UIKit.framework in Frameworks */,
 				14F68A2619378A190030CB1E /* CoreGraphics.framework in Frameworks */,
-				1149D949198043BC000AE642 /* libappletv.a in Frameworks */,
+				117104D01C060F7500A01219 /* libappletv.a in Frameworks */,
 				14F68A2419378A190030CB1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,7 +234,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1116144619804F35002D4A07 /* libappletv.a in Frameworks */,
+				117104D21C060F9B00A01219 /* libappletv.a in Frameworks */,
 				14F68A5F19378A470030CB1E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +397,7 @@
 				14F68A2C19378A190030CB1E /* InfoPlist.strings */,
 				14F68A2F19378A190030CB1E /* main.m */,
 				14F68A3119378A190030CB1E /* iOSMirror-Prefix.pch */,
-				1149D948198043BC000AE642 /* libappletv.a */,
+				117104CF1C060F7500A01219 /* libappletv.a */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -435,7 +435,7 @@
 				14F68A6A19378A470030CB1E /* main.m */,
 				14F68A6C19378A470030CB1E /* OSXMirror-Prefix.pch */,
 				14F68A6D19378A470030CB1E /* Credits.rtf */,
-				1116144519804F35002D4A07 /* libappletv.a */,
+				117104D11C060F9B00A01219 /* libappletv.a */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -483,7 +483,7 @@
 		14F68A16193789C90030CB1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 			};
 			buildConfigurationList = 14F68A19193789C90030CB1E /* Build configuration list for PBXProject "Mirror" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -657,6 +657,8 @@
 		14F68A1A193789C90030CB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -715,6 +717,7 @@
 					"$(PROJECT_DIR)/iOSMirror",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.tlt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -765,6 +768,7 @@
 					"$(PROJECT_DIR)/SharedMirror",
 					"$(PROJECT_DIR)/iOSMirror",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.tlt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -819,6 +823,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.tlt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Mirror;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -864,6 +869,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.tlt.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Mirror;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
